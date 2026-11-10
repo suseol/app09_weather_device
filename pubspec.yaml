@@ -1,0 +1,21 @@
+name: lab09_show_me_weather
+description: 11주차 모바일 장치 활용 - 지금 날씨 보여줘
+publish_to: none
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.5.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  geolocator: ^14.0.2
+  image_picker: ^1.1.2
+  record: ^6.2.1
+  path_provider: ^2.1.5
+  http: ^1.5.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/weather/

@@ -1,0 +1,8 @@
+analyzer:
+  exclude:
+    - steps/**
+    - checkpoints/**
+    - solution/**
+  errors:
+    unused_import: warning
+    unused_local_variable: warning
