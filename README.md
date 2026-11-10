@@ -26,8 +26,7 @@ flutter run
 | S05 | 여러 사진을 좌우로 넘기기 |
 | S06 (선택) | BottomSheet로 다른 지역 조회 |
 
-- [실습 진행서 Markdown](lab09_steps.md)
-- [실습 진행서 PDF](lab09_steps_print.pdf)
+실습 진행서는 수업 시간에 별도로 제공합니다.
 
 ## 파일 구성
 
