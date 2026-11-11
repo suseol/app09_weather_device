@@ -41,7 +41,7 @@ flutter run
 
 ## 실습 복구 파일
 
-`checkpoints/`에는 위치 권한(S02), 사진 등록(S03), 음성 설명(S04), 사진 넘기기까지 마친 핵심 완료(S05) 단계의 복구용 전체 파일이 있습니다. S06 지역 선택은 선택 확장 단계입니다. 필요한 파일을 원래 `lib/` 경로 또는 `android/app/src/main/AndroidManifest.xml`로 복사해 복구합니다. 실습 진행서는 수업 시간에 별도로 제공합니다.
+`checkpoints/`에는 위치 권한과 `LocationService`(S02), 사진 등록(S03), 음성 설명(S04), 사진 넘기기까지 마친 핵심 완료(S05) 단계의 복구용 전체 파일이 있습니다. S06 지역 선택은 선택 확장 단계입니다. 필요한 파일을 원래 `lib/` 경로 또는 `android/app/src/main/AndroidManifest.xml`로 복사해 복구합니다. S02에서 `LocationService`를 직접 작성하는 것이 원칙입니다. 진도를 놓쳤다면 `checkpoints/location_service_cp02.dart`를 `lib/services/location_service.dart`로 복사하면 됩니다. 실습 진행서는 수업 시간에 별도로 제공합니다.
 
 ## API 키 주의
 
