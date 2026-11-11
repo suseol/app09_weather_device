@@ -37,7 +37,11 @@ flutter run
 - `assets/images/weather/`: 기본 날씨 배경 4종
 - `android/app/src/main/AndroidManifest.xml`: INTERNET만 있는 기본 설정. 위치와 마이크 권한은 수업 중 직접 추가
 
-**Starter에는 완성된 학생 실습 코드가 들어 있지 않습니다.** 단계별로 파일을 수정하여 기능을 완성합니다. `solution/`, `steps/` 전체 완성본, `checkpoints/` 복구 파일은 이 공개 저장소에 포함하지 않습니다.
+**Starter에는 완성된 학생 실습 코드가 들어 있지 않습니다.** 단계별로 파일을 수정하여 기능을 완성합니다. `solution/`과 `steps/` 전체 완성본은 이 공개 저장소에 포함하지 않습니다. `checkpoints/`는 수업 중 실습 진도를 놓쳤을 때 복구하는 용도로 제공합니다.
+
+## 실습 복구 파일
+
+`checkpoints/`에는 위치 권한(S02), 사진 등록(S03), 음성 설명(S04) 단계의 복구용 전체 파일이 있습니다. 필요한 파일을 원래 `lib/` 경로 또는 `android/app/src/main/AndroidManifest.xml`로 복사해 복구합니다. 실습 진행서는 수업 시간에 별도로 제공합니다.
 
 ## API 키 주의
 
